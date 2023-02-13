@@ -28,7 +28,6 @@ namespace GameSnake
         {
             float sqrDistance = Mathf.Sqrt(_bonesDistantice);
             Vector3 previousPosition = transform.position;
-    
             foreach (var bone in _tails)
             {
                 if ((bone.position - previousPosition).sqrMagnitude > sqrDistance)

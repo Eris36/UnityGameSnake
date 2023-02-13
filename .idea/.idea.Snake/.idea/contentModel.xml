@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\Root\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Root\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Snake.1090058869.00" t="ExcludeRecursive" />
-    <e p="D:\Unity\Snake\Snake" t="IncludeRecursive">
+    <e p="C:\Users\Root\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Snake.-570685039.00" t="ExcludeRecursive" />
+    <e p="D:\Unity\Snake" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="MVVM" t="Include">
-          <e p="HpModel.cs" t="Include" />
+          <e p="ApplyScoreView.cs" t="Include" />
           <e p="IScoreModel.cs" t="Include" />
+          <e p="IScoreViewModel.cs" t="Include" />
+          <e p="ScoreModel.cs" t="Include" />
+          <e p="ScoreView.cs" t="Include" />
+          <e p="ScoreViewModel.cs" t="Include" />
+          <e p="Starter.cs" t="Include" />
         </e>
         <e p="Scripts" t="Include">
           <e p="Food.cs" t="Include" />
