@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace GameSnake
@@ -8,6 +6,8 @@ namespace GameSnake
     {
         [SerializeField] private ScoreView _scoreView;
         [SerializeField] private ApplyScoreView _applyScoreView;
+        [SerializeField] private GameObject food;
+        
 
         private void Start()
         {
@@ -15,6 +15,11 @@ namespace GameSnake
             var scoreViewModel = new ScoreViewModel(scoreModel);
             _scoreView.Initialize(scoreViewModel);
             _applyScoreView.Initialize(scoreViewModel);
+        }
+
+        public void NewPositionFood()
+        {
+            food.transform.position = new Vector3( Random.Range(-18, 18), 1, Random.Range(1, 38) );
         }
     }
 }

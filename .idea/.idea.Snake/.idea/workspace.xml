@@ -22,15 +22,13 @@
     <list default="true" id="28579f3d-c817-4b5c-988d-9b0d20d18b1a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Snake/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Snake/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Snake/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Snake/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Snake/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Snake/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Snake/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Snake/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MVVM/HpModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MVVM/HpModel.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MVVM/IScoreModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MVVM/IScoreModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MVVM/ApplyScoreView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MVVM/ApplyScoreView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MVVM/Starter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MVVM/Starter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Food.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Food.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Food.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Food.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Snake.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Snake.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,15 +51,16 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/MVVM/IHpModel.cs" />
         <option value="$PROJECT_DIR$/Assets/MVVM/HpModel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Snake.cs" />
         <option value="$PROJECT_DIR$/Assets/MVVM/IScoreModel.cs" />
         <option value="$PROJECT_DIR$/Assets/MVVM/ScoreModel.cs" />
-        <option value="$PROJECT_DIR$/Assets/MVVM/ScoreViewModel.cs" />
-        <option value="$PROJECT_DIR$/Assets/MVVM/Starter.cs" />
         <option value="$PROJECT_DIR$/Assets/MVVM/IScoreViewModel.cs" />
         <option value="$PROJECT_DIR$/Assets/MVVM/ScoreView.cs" />
+        <option value="$PROJECT_DIR$/Assets/MVVM/ScoreViewModel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Food.cs" />
         <option value="$PROJECT_DIR$/Assets/MVVM/ApplyScoreView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Snake.cs" />
+        <option value="$PROJECT_DIR$/Assets/MVVM/LevelObjectDetector.cs" />
+        <option value="$PROJECT_DIR$/Assets/MVVM/Starter.cs" />
       </list>
     </option>
   </component>
@@ -113,6 +112,7 @@
       <updated>1676207300902</updated>
       <workItem from="1676207357060" duration="6836000" />
       <workItem from="1676269967281" duration="10328000" />
+      <workItem from="1676624678763" duration="7584000" />
     </task>
     <servers />
   </component>

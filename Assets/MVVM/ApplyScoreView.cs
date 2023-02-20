@@ -8,18 +8,16 @@ namespace GameSnake
 {
     public class ApplyScoreView : MonoBehaviour
     {
-        [SerializeField] private Button _button;
         [SerializeField] private float _score;
         public IScoreViewModel _scoreViewModel;
-
-        private bool test;
-
-
+        [SerializeField] private LevelObjectDetector _levelObjectDetector;
+        
+        
+        
         public void Initialize( IScoreViewModel scoreViewModel)
         {
             _scoreViewModel = scoreViewModel;
-            _button.onClick.RemoveAllListeners();
-            _button.onClick.AddListener(() => _scoreViewModel.AddScore(_score));
+            _levelObjectDetector.TriggerEnter += () => _scoreViewModel.AddScore(_score);
         }
     }
 }

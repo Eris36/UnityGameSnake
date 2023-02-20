@@ -10,6 +10,7 @@
           <e p="ApplyScoreView.cs" t="Include" />
           <e p="IScoreModel.cs" t="Include" />
           <e p="IScoreViewModel.cs" t="Include" />
+          <e p="LevelObjectDetector.cs" t="Include" />
           <e p="ScoreModel.cs" t="Include" />
           <e p="ScoreView.cs" t="Include" />
           <e p="ScoreViewModel.cs" t="Include" />

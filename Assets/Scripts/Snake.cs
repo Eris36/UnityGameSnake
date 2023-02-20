@@ -5,6 +5,8 @@ namespace GameSnake
 {
     public class Snake : MonoBehaviour
     {
+        [SerializeField] private Starter starter;
+        
         [SerializeField] private List<Transform> _tails;
         [SerializeField] private float _bonesDistantice;
         [SerializeField] private GameObject _bonePrefab;
@@ -53,7 +55,8 @@ namespace GameSnake
         {
             if (other.TryGetComponent(out Food food))
             {
-                Destroy(other.gameObject);
+                
+                starter.NewPositionFood();
                 GameObject bone = Instantiate(_bonePrefab);
                 _tails.Add(bone.transform);
             }
